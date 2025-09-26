@@ -205,7 +205,7 @@ style.textContent = `
     .nav-menu.active {
         display: flex;
         position: absolute;
-        top: 70px;
+        top: 100%;
         left: 0;
         width: 100%;
         flex-direction: column;
@@ -213,6 +213,7 @@ style.textContent = `
         backdrop-filter: blur(10px);
         padding: 20px;
         gap: 20px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
     
     .hamburger.active span:nth-child(1) {

@@ -15,6 +15,7 @@ body {
     color: #333;
     background: #0a0a0a;
     overflow-x: hidden;
+    padding-top: 70px;
 }
 
 .container {
